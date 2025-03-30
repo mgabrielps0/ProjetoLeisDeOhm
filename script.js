@@ -17,8 +17,4 @@ function loadContent(section) {
             content.className = ""; // Remove classes anteriores
             content.classList.add("content", section); // Adiciona classe com o nome da seção
         })
-        .catch(error => {
-            content.innerHTML = "<h2>Erro</h2><p>Não foi possível carregar o conteúdo.</p>";
-            console.error("Erro ao carregar o conteúdo:", error);
-        });
 }
