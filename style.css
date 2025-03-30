@@ -55,7 +55,22 @@ body {
 
 #content {
     text-align: center;
+    margin-bottom: 2em;
 }
+
+.home__title {
+
+    font-size: 3em;
+
+}
+
+.home__text {
+
+    font-size: 2em;
+
+}
+
+/*CSS GEORGE OHM----------------------------------------------------------------------------------------*/
 
 .section__title {
 
@@ -64,7 +79,85 @@ body {
 }
 
 .section__text {
+text-align: left;
+}
 
 
+.biografia_ohm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ohm-imagem {
+    width: 35%; 
+    border-radius: 10px;
+    text-align: end;
+}
+
+.primeira_lei {
+    font-size: 14pt;
+}
+
+.section__content {
+    font-size: 14pt;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align:justify;
+    width: 60%;
+}
+
+/*CSS PRIMEIRA LEI----------------------------------------------------------------------------------------*/
+
+.formula_uir {
+    font-weight: bolder;
+    font-size: 22pt;
+    align-items: center;
+    max-width: fit-content;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.lista_formulas {
+    font-weight: bolder;
+    font-size: 20pt;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.circuitos_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30em;
+    margin: 0 auto;
+
+    img {
+        max-width: 70%;
+    }
+}
+
+.tabela {
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
+}
+
+/*CSS Segunda Lei----------------------------------------------------------------------------------------*/
+
+.image__lei2 {
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+.credits__lei2 {
+
+    text-decoration: none;
 
 }
