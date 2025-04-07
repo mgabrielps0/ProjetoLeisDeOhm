@@ -2,7 +2,7 @@ body {
 
     margin: 0 auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow-x: hidden; /* Impede rolagem horizontal */
+    overflow-x: hidden;
 
 }
 
@@ -140,8 +140,8 @@ text-align: left;
 }
 
 .circuitos_box img {
-    max-width: 33.33%; /* Cada imagem ocupa cerca de 1/3 da tela */
-    object-fit: contain; /* Evita distorções */
+    max-width: 33.33%;
+    object-fit: contain;
 }
 
 
@@ -211,20 +211,20 @@ h1 {
 }
 
 #barra-tensao {
-    background-color: #ff6347; /* Cor vermelha para Tensão */
-    width: 50%; /* Inicialmente 50% */
+    background-color: #ff6347;
+    width: 50%; 
     transition: width 1s ease;
 }
 
 #barra-corrente {
-    background-color: #4682b4; /* Cor azul para Corrente */
-    width: 30%; /* Inicialmente 30% */
+    background-color: #4682b4;
+    width: 30%; 
     transition: width 1s ease;
 }
 
 #barra-resistencia {
-    background-color: #32cd32; /* Cor verde para Resistência */
-    width: 70%; /* Inicialmente 70% */
+    background-color: #32cd32;
+    width: 70%;
     transition: width 1s ease;
 }
 
@@ -281,7 +281,6 @@ h1 {
     100% { width: 90%; }
 }
 
-/* Animações para alterar os valores */
 @keyframes tensaoAnimation {
     0% { width: 50%; }
     50% { width: 80%; }
@@ -300,7 +299,6 @@ h1 {
     100% { width: 20%; }
 }
 
-/* Aplicando animações */
 #barra-tensao {
     animation: tensaoAnimation 4s ease-in-out infinite;
 }
